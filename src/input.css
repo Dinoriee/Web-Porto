@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Special+Gothic+Expanded+One&family=Special+Gothic:wght@400..700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-ballet: "Ballet", cursive;
+  --font-gothic: "Special Gothic Expanded One", sans-serif;
+  --color-insta-purple: #833ab4;
+  --color-insta-red: #fd1d1d;
+  --color-insta-yellow: #fcb045;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
